@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+        body {
+            background-color: black;
+            background-image: url("https://cdn.dribbble.com/users/1783374/screenshots/10100442/cute-loading.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; 
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+        }
+        
+         .con{
+            background-color:white;
+            color:rgb(107,217,236);
+            opacity: 0.7;
+            padding: 20px 40px;
+            border-radius: 5px;
+            box-shadow:10px 5px 10px 10px;
+        }
+        
+        .con h1{
+            text-align: center;
+            margin-bottom: 30px;
+            color: rgb(15, 14, 14);
+        }
+        
+        .con a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        p{
+            color: black;
+        }
+        
+        .btn{
+            cursor: pointer;
+            display: inline-block;
+            width: 100%;
+            background-color: rgb(55, 238, 55);
+            padding: 15px;
+            font-family:inherit;
+            font-size: 16px;
+            border: 0;
+            border-radius: 5px;
+        }
+        
+        .text{
+            margin-top: 30px;
+        }
+        
+        .form{
+            position: relative;
+            margin: 20px 0 40px;
+            width: 300px;
+        }
+        
+        .form input{
+            background-color: transparent;
+            border: 0;
+            border-bottom: 3px rgb(15, 133, 15) solid;
+            display: block;
+            width: 100%;
+            padding: 15px 0;
+            font-size: 18px;
+            color: black;
+        }
+        
+        
+        
+        .form label{
+            position: absolute;
+            top:15px;
+            left:0;
+            pointer-events: none;
+        } 
+        </style>
+
+
+    </head>
+    <body>
+        <div class ="con">
+            <form id="survey-form" action="home.html">
+        <h1>Login Page</h1>
+        <div class="form">
+        <input type="text" placeholder="Enter your Email Id">
+    </div>
+    <div class="form">
+        <input type="password" placeholder="Enter your password">
+    </div>
+    <button class="btn">Login</button>
+    <p>Dont Own a Account?</p>
+    <a href="Signup.html"style="color:rgb(28,241,63); text-align:center;">Sign up</a>
+           </form>
+        </div>
+        
+    </body>
+</html>
+
